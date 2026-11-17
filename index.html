@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ManuPizza · Pizza Artesanal em Franca-SP · Delivery e retirada</title>
+<meta name="description" content="ManuPizza – Pizza artesanal em Franca-SP. Pizzas salgadas e doces, delivery e retirada. Peça pelo WhatsApp (16) 99364-9696.">
+<meta name="theme-color" content="#0a0a0a">
+<meta property="og:title" content="ManuPizza · Pizza Artesanal">
+<meta property="og:description" content="Pizzas que chegam, histórias que ficam. Delivery e retirada em Franca-SP.">
+<meta property="og:image" content="img/caixa-salgada.webp">
+<link rel="icon" href="img/logo.png">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- Ícones (traço laranja, no estilo dos destaques do Instagram) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-sacola" viewBox="0 0 24 24"><path d="M5 8h14l-1 12H6L5 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></symbol>
+    <symbol id="i-retirada" viewBox="0 0 24 24"><path d="M6 7h12l-1 13H7L6 7Z"/><path d="M9 7V5.5a3 3 0 0 1 6 0V7"/><path d="M9.5 11.5h5l-2.5 5-2.5-5Z"/></symbol>
+    <symbol id="i-moto" viewBox="0 0 24 24"><circle cx="6" cy="17" r="2.6"/><circle cx="18" cy="17" r="2.6"/><path d="M8.6 17h6.8l1.6-5h-5l-2 3"/><path d="M15 8h2.5l1.5 4"/><rect x="2.5" y="8" width="6" height="5" rx="1"/></symbol>
+    <symbol id="i-celular" viewBox="0 0 24 24"><rect x="7" y="2.5" width="10" height="19" rx="2"/><path d="M11 18.5h2"/><path d="M9.5 7.5h5l-2.5 6-2.5-6Z"/></symbol>
+    <symbol id="i-estrela" viewBox="0 0 24 24"><path d="M12 3.5l2.5 5.2 5.7.8-4.1 4 1 5.6-5.1-2.7-5.1 2.7 1-5.6-4.1-4 5.7-.8L12 3.5Z"/></symbol>
+    <symbol id="i-balao" viewBox="0 0 24 24"><path d="M4 11.5a8 7 0 1 1 3.5 5.8L4 19l1-3.6A6.7 6.7 0 0 1 4 11.5Z"/><path d="M12 7.6l1.3 2.6 2.8.4-2 2 .5 2.8-2.6-1.4-2.6 1.4.5-2.8-2-2 2.8-.4L12 7.6Z"/></symbol>
+    <symbol id="i-fatia" viewBox="0 0 24 24"><path d="M3.5 6.5C9 3.5 15 3.5 20.5 6.5L12 21 3.5 6.5Z"/><path d="M4.8 8.7c4.7-2.3 9.7-2.3 14.4 0"/><circle cx="10" cy="11" r="1.1"/><circle cx="14" cy="12.5" r="1.1"/><circle cx="12" cy="16" r="1"/></symbol>
+    <symbol id="i-doce" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="5.5"/><path d="M10 9.5l.6.6M14 10l-.4.7M12.5 14l.3.7M9.5 13.2l.7-.2M14.6 13.2l.6.3"/></symbol>
+    <symbol id="i-copo" viewBox="0 0 24 24"><path d="M6 7h12l-1.4 13.5H7.4L6 7Z"/><path d="M12 7l2-4.5h3"/><path d="M6.6 12h10.8"/></symbol>
+    <symbol id="i-combo" viewBox="0 0 24 24"><path d="M3 14h10l-1 7H4l-1-7Z"/><path d="M8 14l1.2-3h2"/><path d="M13.5 11.5C15 8 20 8 21 11.5L17.2 20 13.5 11.5Z"/></symbol>
+    <symbol id="i-relogio" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-6.5-6-6.5-11a6.5 6.5 0 0 1 13 0c0 5-6.5 11-6.5 11Z"/><circle cx="12" cy="10" r="2.4"/></symbol>
+    <symbol id="i-whats" viewBox="0 0 24 24"><path d="M4 20l1.2-3.8A8 8 0 1 1 8 19l-4 1Z"/><path d="M9 8.5c0 3.5 2.6 6.5 6.4 6.6l1-1.5-2-1-1 .9c-1.1-.5-2.1-1.5-2.6-2.6l.9-1-1-2-1.6.9Z"/></symbol>
+    <symbol id="i-insta" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="3.8"/><circle cx="17" cy="7" r=".6"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+    <symbol id="i-mais" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-menos" viewBox="0 0 24 24"><path d="M5 12h14"/></symbol>
+    <symbol id="i-lixo" viewBox="0 0 24 24"><path d="M4.5 7h15M9.5 7V4.5h5V7M6.5 7l1 13h9l1-13"/></symbol>
+    <symbol id="i-busca" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4 4"/></symbol>
+    <symbol id="i-seta" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  </defs>
+</svg>
+
+<header class="topo" id="topo">
+  <div class="topo__in">
+    <a href="#inicio" class="topo__marca" aria-label="ManuPizza – início">
+      <img src="img/logo.png" alt="ManuPizza" width="600" height="311">
+      <span class="topo__assin">Pizza Artesanal</span>
+    </a>
+    <nav class="topo__nav" aria-label="Seções">
+      <a href="#cardapio">Cardápio</a>
+      <a href="#como-pedir">Como pedir</a>
+      <a href="#visite">Visite</a>
+    </nav>
+    <span class="status" data-status><i></i><b>…</b></span>
+    <button class="btn-sacola" type="button" data-abrir-sacola aria-label="Abrir sacola">
+      <svg><use href="#i-sacola"/></svg>
+      <span class="btn-sacola__qtd" data-qtd hidden>0</span>
+    </button>
+  </div>
+</header>
+
+<main id="inicio">
+
+  <!-- CAPA -->
+  <section class="hero">
+    <div class="hero__in">
+      <div class="hero__txt">
+        <img class="hero__logo" src="img/logo.png" alt="ManuPizza – Pizza Artesanal" width="600" height="311" fetchpriority="high">
+        <h1 class="hero__titulo">Pizzas que chegam, <span>histórias que ficam.</span></h1>
+        <p class="hero__sub">Pizza artesanal em Franca-SP. Delivery e retirada — monte seu pedido e envie direto para o nosso WhatsApp.</p>
+        <div class="hero__btns">
+          <a href="#cardapio" class="btn btn--laranja">Ver cardápio</a>
+          <a class="btn btn--contorno" data-whats target="_blank" rel="noopener"><svg><use href="#i-whats"/></svg>Pedir no WhatsApp</a>
+        </div>
+        <ul class="hero__info">
+          <li><svg><use href="#i-relogio"/></svg><span data-hoje>—</span></li>
+          <li><svg><use href="#i-estrela"/></svg><span data-nota></span></li>
+        </ul>
+      </div>
+      <figure class="hero__foto">
+        <img src="img/caixa-salgada.webp" alt="Pizza da ManuPizza na caixa preta com o logo" width="812" height="1082">
+      </figure>
+    </div>
+  </section>
+
+  <!-- ATALHOS (estilo destaques do Instagram) -->
+  <section class="atalhos" aria-label="Categorias">
+    <div class="wrap atalhos__lista" data-atalhos></div>
+  </section>
+
+  <!-- MAIS PEDIDAS / DESTAQUES -->
+  <section class="secao" id="destaques">
+    <div class="wrap">
+      <header class="secao__cab">
+        <h2>Direto do nosso forno</h2>
+        <p class="secao__sub">Fotos reais das pizzas que saem da nossa cozinha.</p>
+      </header>
+      <div class="vitrine" data-destaques></div>
+    </div>
+  </section>
+
+  <!-- PROMOÇÕES (só aparece se houver em dados.js) -->
+  <section class="secao secao--promo" id="promocoes" hidden>
+    <div class="wrap">
+      <header class="secao__cab"><h2>Promoções</h2></header>
+      <div class="promos" data-promos></div>
+    </div>
+  </section>
+
+  <!-- CARDÁPIO -->
+  <section class="secao cardapio" id="cardapio">
+    <div class="wrap">
+      <header class="secao__cab">
+        <h2>Cardápio</h2>
+        <p class="secao__sub">Separamos por tipo. Toque no nome do tipo para ver todos os sabores.</p>
+      </header>
+      <nav class="abas" data-abas aria-label="Categorias do cardápio"></nav>
+      <label class="busca">
+        <svg><use href="#i-busca"/></svg>
+        <input type="search" placeholder="Buscar sabor ou ingrediente" data-busca aria-label="Buscar no cardápio">
+      </label>
+      <div data-cardapio></div>
+      <p class="vazio" data-sem-resultado hidden>Nenhum item encontrado.</p>
+      <p class="nota nota--fotos">Algumas fotos do cardápio são ilustrativas.</p>
+    </div>
+  </section>
+
+  <!-- DELIVERY E RETIRADA -->
+  <section class="secao secao--alt" id="entrega">
+    <div class="wrap">
+      <header class="secao__cab"><h2>Delivery e retirada</h2></header>
+      <div class="duas">
+        <article class="bloco">
+          <span class="circ"><svg><use href="#i-moto"/></svg></span>
+          <h3>Entrega</h3>
+          <p>Levamos sua pizza até você. Taxa de entrega: <b data-taxa>—</b>.<span data-tempo-entrega></span></p>
+        </article>
+        <article class="bloco">
+          <span class="circ"><svg><use href="#i-retirada"/></svg></span>
+          <h3>Retirada</h3>
+          <p>Peça e retire no balcão, sem taxa.<span data-tempo-retirada></span> <span data-end-curto></span></p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMO PEDIR -->
+  <section class="secao" id="como-pedir">
+    <div class="wrap">
+      <header class="secao__cab"><h2>Como pedir</h2></header>
+      <ol class="passos">
+        <li><span class="circ"><svg><use href="#i-fatia"/></svg></span><b>Escolha</b><p>Sabor, tamanho, borda ou meio a meio.</p></li>
+        <li><span class="circ"><svg><use href="#i-sacola"/></svg></span><b>Confira a sacola</b><p>Veja o total com a taxa de entrega.</p></li>
+        <li><span class="circ"><svg><use href="#i-celular"/></svg></span><b>Preencha seus dados</b><p>Entrega ou retirada, endereço e observações.</p></li>
+        <li><span class="circ"><svg><use href="#i-whats"/></svg></span><b>Envie no WhatsApp</b><p>O pedido chega pronto para a ManuPizza confirmar.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- AVALIAÇÕES -->
+  <section class="secao secao--alt" id="avaliacoes">
+    <div class="wrap">
+      <header class="secao__cab"><h2>Avaliações</h2></header>
+      <div class="avals" data-avals></div>
+    </div>
+  </section>
+
+  <!-- VENHA NOS VISITAR -->
+  <section class="secao" id="visite">
+    <div class="wrap visite">
+      <figure class="visite__foto">
+        <img src="img/fachada.webp" alt="Fachada da ManuPizza à noite, com o letreiro preto e laranja" width="608" height="480" loading="lazy">
+      </figure>
+      <div class="visite__txt">
+        <h2>Venha nos visitar</h2>
+        <a class="visite__end" data-mapa target="_blank" rel="noopener"><svg><use href="#i-pin"/></svg><span data-endereco></span></a>
+        <a class="btn btn--laranja btn--mapa" data-mapa target="_blank" rel="noopener"><svg><use href="#i-pin"/></svg>Como chegar no Google Maps</a>
+        <h3 class="mini">Horário de funcionamento</h3>
+        <ul class="horas" data-horas></ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="cta">
+    <div class="wrap cta__in">
+      <h2>Faça seu pedido</h2>
+      <p>Monte seu pedido ou chame a gente no WhatsApp.</p>
+      <div class="hero__btns">
+        <a href="#cardapio" class="btn btn--laranja">Fazer pedido</a>
+        <a class="btn btn--whats" data-whats target="_blank" rel="noopener"><svg><use href="#i-whats"/></svg>(16) 99364-9696</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="rodape">
+  <div class="wrap rodape__in">
+    <div>
+      <img src="img/logo.png" alt="ManuPizza" class="rodape__logo" width="600" height="311" loading="lazy">
+      <p class="rodape__assin">Pizza Artesanal · Franca-SP</p>
+      <p class="rodape__frase" data-frase></p>
+    </div>
+    <div>
+      <h3 class="mini">Contato</h3>
+      <a class="rodape__lnk" data-whats target="_blank" rel="noopener"><svg><use href="#i-whats"/></svg>(16) 99364-9696</a>
+      <a class="rodape__lnk" data-insta target="_blank" rel="noopener"><svg><use href="#i-insta"/></svg>@manupizzaoficial</a>
+      <a class="rodape__lnk" data-mapa target="_blank" rel="noopener"><svg><use href="#i-pin"/></svg><span data-endereco></span></a>
+    </div>
+    <div>
+      <h3 class="mini">Horários</h3>
+      <ul class="horas" data-horas></ul>
+    </div>
+  </div>
+  <p class="rodape__base wrap">© <span data-ano></span> ManuPizza. Todos os direitos reservados.</p>
+</footer>
+
+<!-- Barra fixa no celular -->
+<div class="barra" data-barra hidden>
+  <button type="button" class="barra__btn" data-abrir-sacola>
+    <span><svg><use href="#i-sacola"/></svg> Ver sacola · <b data-barra-qtd>0</b></span>
+    <b data-barra-total>R$ 0,00</b>
+  </button>
+</div>
+
+<!-- Modal do produto -->
+<dialog class="modal" id="modal-produto" aria-labelledby="mp-titulo">
+  <form method="dialog" class="modal__box" data-form-produto>
+    <button class="modal__x" value="fechar" aria-label="Fechar"><svg><use href="#i-x"/></svg></button>
+    <div data-mp-conteudo></div>
+  </form>
+</dialog>
+
+<!-- Sacola -->
+<div class="veu" data-veu hidden></div>
+<aside class="sacola" id="sacola" aria-label="Sacola" aria-hidden="true">
+  <header class="sacola__cab">
+    <h2>Sua sacola</h2>
+    <button type="button" class="modal__x" data-fechar-sacola aria-label="Fechar sacola"><svg><use href="#i-x"/></svg></button>
+  </header>
+  <div class="sacola__itens" data-itens></div>
+  <div class="sacola__rodape" data-sacola-rodape></div>
+</aside>
+
+<!-- Finalizar -->
+<dialog class="modal" id="checkout" aria-labelledby="ck-titulo">
+  <form class="modal__box ck" data-form-checkout novalidate>
+    <button class="modal__x" type="button" data-fechar-checkout aria-label="Fechar"><svg><use href="#i-x"/></svg></button>
+    <h2 id="ck-titulo">Finalizar pedido</h2>
+    <p class="aviso" data-aviso-fechado hidden></p>
+
+    <fieldset class="ck__modo">
+      <legend>Como você quer receber?</legend>
+      <label class="pill"><input type="radio" name="modo" value="entrega" checked><span><svg><use href="#i-moto"/></svg>Entrega</span></label>
+      <label class="pill"><input type="radio" name="modo" value="retirada"><span><svg><use href="#i-retirada"/></svg>Retirada</span></label>
+    </fieldset>
+
+    <div class="campos">
+      <label class="campo"><span>Nome</span><input name="nome" autocomplete="name" required></label>
+      <label class="campo"><span>Telefone / WhatsApp</span><input name="telefone" type="tel" inputmode="tel" autocomplete="tel" required placeholder="(16) 90000-0000"></label>
+    </div>
+
+    <div class="campos" data-bloco-endereco>
+      <label class="campo campo--largo"><span>Rua e número</span><input name="rua" autocomplete="street-address" required></label>
+      <label class="campo"><span>Bairro</span><input name="bairro" list="lista-bairros" required></label>
+      <datalist id="lista-bairros"></datalist>
+      <label class="campo campo--largo"><span>Complemento / ponto de referência <i>(opcional)</i></span><input name="complemento"></label>
+    </div>
+    <p class="nota" data-retirada-info hidden></p>
+
+    <div class="campos">
+      <label class="campo"><span>Forma de pagamento</span><select name="pagamento" data-pagamentos></select></label>
+      <label class="campo" data-troco hidden><span>Troco para <i>(opcional)</i></span><input name="troco" inputmode="decimal" placeholder="Ex.: R$ 100"></label>
+    </div>
+    <label class="campo campo--largo"><span>Observações <i>(opcional)</i></span><textarea name="obs" rows="2" placeholder="Ex.: tocar o interfone, sem cebola…"></textarea></label>
+
+    <div class="resumo" data-resumo></div>
+    <p class="nota">O pedido é enviado pelo WhatsApp e confirmado pela ManuPizza. Nenhum pagamento é feito pelo site.</p>
+    <button class="btn btn--whats btn--cheio" type="submit"><svg><use href="#i-whats"/></svg><span data-enviar-txt>Enviar pedido no WhatsApp</span></button>
+  </form>
+</dialog>
+
+<div class="toast" data-toast role="status" aria-live="polite"></div>
+
+<script src="js/dados.js"></script>
+<script src="js/pagamento.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
